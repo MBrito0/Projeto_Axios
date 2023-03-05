@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './BotaoSubmit.css'
+import './BotaoSubmit.css'
 
 
 const BotaoSubmit = ({text}) => {

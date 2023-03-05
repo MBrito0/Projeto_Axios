@@ -1,6 +1,6 @@
 /*import React from 'react'*/
 import { Link } from "react-router-dom"
-import styles from "./Footer.css"
+import "./Footer.css"
 
 import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
@@ -8,7 +8,7 @@ import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer>
         <ul className="social_list">
           <li>
             <FaFacebook />
